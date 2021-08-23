@@ -1,11 +1,11 @@
-from keep_alive import keep_alive
+#from keep_alive import keep_alive
 import constants as Keys
 from telegram.ext import *
 import responses as R
 
 print("Bot started...")
 
-keep_alive()
+#keep_alive()
 
 def start_command(update, context):
     update.message.reply_text('Type something random to get started!')

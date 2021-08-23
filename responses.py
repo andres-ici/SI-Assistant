@@ -15,7 +15,10 @@ def sample_responses(input_test):
         return str(date_time)
 
     if user_message in ("horario"):
-      return "https://ibb.co/vqW91sZ"
+        return "https://ibb.co/vqW91sZ"
+
+    if user_message in ("malla"):
+        return "https://admision.ufro.cl/wp-content/uploads/mallas-ufro/26-ingenieria-civil-electronica.jpg"
 
     return "I don't understand you :("
 
